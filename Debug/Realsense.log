@@ -1,0 +1,73 @@
+﻿  T265_D435i.cpp
+C:\Program Files (x86)\Intel RealSense SDK 2.0\include\librealsense2\h\rs_option.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files (x86)\Intel RealSense SDK 2.0\samples\example.hpp(703,27): warning C4018: “<”: 有符号/无符号不匹配
+C:\Program Files (x86)\Intel RealSense SDK 2.0\samples\example.hpp(798,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Program Files (x86)\Intel RealSense SDK 2.0\samples\example.hpp(891,23): warning C4018: “<”: 有符号/无符号不匹配
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_librealsense_exception_type，函数 "public: __thiscall rs2::error::error(struct rs2_error *)" (??0error@rs2@@QAE@PAUrs2_error@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_failed_function，函数 "public: __thiscall rs2::error::error(struct rs2_error *)" (??0error@rs2@@QAE@PAUrs2_error@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_failed_args，函数 "public: __thiscall rs2::error::error(struct rs2_error *)" (??0error@rs2@@QAE@PAUrs2_error@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_error_message，函数 "public: __thiscall rs2::error::error(struct rs2_error *)" (??0error@rs2@@QAE@PAUrs2_error@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_free_error，函数 "public: __thiscall rs2::error::error(struct rs2_error *)" (??0error@rs2@@QAE@PAUrs2_error@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_create_context，函数 "public: __thiscall rs2::context::context(void)" (??0context@rs2@@QAE@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_delete_context，函数 "public: __thiscall rs2::context::context(void)" (??0context@rs2@@QAE@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_query_devices，函数 "public: class rs2::device_list __thiscall rs2::context::query_devices(void)const " (?query_devices@context@rs2@@QBE?AVdevice_list@2@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_stream_profile_data，函数 "public: __thiscall rs2::stream_profile::stream_profile(struct rs2_stream_profile const *)" (??0stream_profile@rs2@@QAE@PBUrs2_stream_profile@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_is_stream_profile_default，函数 "public: __thiscall rs2::stream_profile::stream_profile(struct rs2_stream_profile const *)" (??0stream_profile@rs2@@QAE@PBUrs2_stream_profile@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_device_count，函数 "public: unsigned int __thiscall rs2::device_list::size(void)const " (?size@device_list@rs2@@QBEIXZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_delete_device_list，函数 "public: class rs2::device_list __thiscall rs2::context::query_devices(void)const " (?query_devices@context@rs2@@QBE?AVdevice_list@2@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_create_device，函数 "public: class rs2::device __thiscall rs2::device_list::operator[](unsigned int)const " (??Adevice_list@rs2@@QBE?AVdevice@1@I@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_delete_device，函数 "public: class rs2::device __thiscall rs2::device_list::operator[](unsigned int)const " (??Adevice_list@rs2@@QBE?AVdevice@1@I@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_device_info，函数 "public: char const * __thiscall rs2::device::get_info(enum rs2_camera_info)const " (?get_info@device@rs2@@QBEPBDW4rs2_camera_info@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_frame_number，函数 "public: __thiscall rs2::frame::frame(struct rs2_frame *)" (??0frame@rs2@@QAE@PAUrs2_frame@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_frame_data，函数 "public: void const * __thiscall rs2::frame::get_data(void)const " (?get_data@frame@rs2@@QBEPBXXZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_frame_width，函数 "public: int __thiscall rs2::video_frame::get_width(void)const " (?get_width@video_frame@rs2@@QBEHXZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_frame_height，函数 "public: int __thiscall rs2::video_frame::get_height(void)const " (?get_height@video_frame@rs2@@QBEHXZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_frame_add_ref，函数 "protected: void __thiscall rs2::frame::add_ref(void)const " (?add_ref@frame@rs2@@IBEXXZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_release_frame，函数 "public: __thiscall rs2::frame::~frame(void)" (??1frame@rs2@@QAE@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_keep_frame，函数 "public: void __thiscall rs2::frame::keep(void)" (?keep@frame@rs2@@QAEXXZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_frame_vertices，函数 "public: struct rs2::vertex const * __thiscall rs2::points::get_vertices(void)const " (?get_vertices@points@rs2@@QBEPBUvertex@2@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_frame_texture_coordinates，函数 "public: struct rs2::texture_coordinate const * __thiscall rs2::points::get_texture_coordinates(void)const " (?get_texture_coordinates@points@rs2@@QBEPBUtexture_coordinate@2@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_frame_points_count，函数 "public: __thiscall rs2::points::points(class rs2::frame const &)" (??0points@rs2@@QAE@ABVframe@1@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_get_frame_stream_profile，函数 "public: __thiscall rs2::frame::frame(struct rs2_frame *)" (??0frame@rs2@@QAE@PAUrs2_frame@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_is_frame_extendable_to，函数 "public: __thiscall rs2::depth_frame::depth_frame(class rs2::frame const &)" (??0depth_frame@rs2@@QAE@ABVframe@1@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_extract_frame，函数 "public: void __thiscall rs2::frameset::foreach_rs<class <lambda_82c1d8948cd7fdebba3c3973f3e74ba5> >(class <lambda_82c1d8948cd7fdebba3c3973f3e74ba5>)const " (??$foreach_rs@V<lambda_82c1d8948cd7fdebba3c3973f3e74ba5>@@@frameset@rs2@@QBEXV<lambda_82c1d8948cd7fdebba3c3973f3e74ba5>@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_embedded_frames_count，函数 "public: __thiscall rs2::frameset::frameset(class rs2::frame const &)" (??0frameset@rs2@@QAE@ABVframe@1@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_pose_frame_get_pose_data，函数 "public: struct rs2_pose __thiscall rs2::pose_frame::get_pose_data(void)const " (?get_pose_data@pose_frame@rs2@@QBE?AUrs2_pose@@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_set_option，函数 "public: void __thiscall rs2::options::set_option(enum rs2_option,float)const " (?set_option@options@rs2@@QBEXW4rs2_option@@M@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_create_pointcloud，函数 "private: class std::shared_ptr<struct rs2_processing_block> __thiscall rs2::pointcloud::init(void)" (?init@pointcloud@rs2@@AAE?AV?$shared_ptr@Urs2_processing_block@@@std@@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_start_processing，函数 "public: void __thiscall rs2::processing_block::start<class rs2::frame_queue>(class rs2::frame_queue)" (??$start@Vframe_queue@rs2@@@processing_block@rs2@@QAEXVframe_queue@1@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_process_frame，函数 "public: void __thiscall rs2::processing_block::invoke(class rs2::frame)const " (?invoke@processing_block@rs2@@QBEXVframe@2@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_delete_processing_block，函数 "private: class std::shared_ptr<struct rs2_processing_block> __thiscall rs2::pointcloud::init(void)" (?init@pointcloud@rs2@@AAE?AV?$shared_ptr@Urs2_processing_block@@@std@@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_create_frame_queue，函数 "public: __thiscall rs2::frame_queue::frame_queue(unsigned int,bool)" (??0frame_queue@rs2@@QAE@I_N@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_delete_frame_queue，函数 "public: __thiscall rs2::frame_queue::frame_queue(unsigned int,bool)" (??0frame_queue@rs2@@QAE@I_N@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_poll_for_frame，函数 "public: bool __thiscall rs2::frame_queue::poll_for_frame<class rs2::frame>(class rs2::frame *)const " (??$poll_for_frame@Vframe@rs2@@@frame_queue@rs2@@QBE_NPAVframe@1@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_enqueue_frame，函数 "public: void __thiscall rs2::frame_queue::enqueue(class rs2::frame)const " (?enqueue@frame_queue@rs2@@QBEXVframe@2@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_create_config，函数 "public: __thiscall rs2::config::config(void)" (??0config@rs2@@QAE@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_delete_config，函数 "public: __thiscall rs2::config::config(void)" (??0config@rs2@@QAE@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_config_enable_device，函数 "public: void __thiscall rs2::config::enable_device(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?enable_device@config@rs2@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_create_pipeline，函数 "public: __thiscall rs2::pipeline::pipeline(class rs2::context)" (??0pipeline@rs2@@QAE@Vcontext@1@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_pipeline_wait_for_frames，函数 "public: class rs2::frameset __thiscall rs2::pipeline::wait_for_frames(unsigned int)const " (?wait_for_frames@pipeline@rs2@@QBE?AVframeset@2@I@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_delete_pipeline，函数 "public: __thiscall rs2::pipeline::pipeline(class rs2::context)" (??0pipeline@rs2@@QAE@Vcontext@1@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_pipeline_start_with_config，函数 "public: class rs2::pipeline_profile __thiscall rs2::pipeline::start(class rs2::config const &)" (?start@pipeline@rs2@@QAE?AVpipeline_profile@2@ABVconfig@2@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _rs2_delete_pipeline_profile，函数 "public: class rs2::pipeline_profile __thiscall rs2::pipeline::start(class rs2::config const &)" (?start@pipeline@rs2@@QAE?AVpipeline_profile@2@ABVconfig@2@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _gluPerspective@32，函数 "void __cdecl draw_pointcloud(float,float,struct glfw_state &,class rs2::points &)" (?draw_pointcloud@@YAXMMAAUglfw_state@@AAVpoints@rs2@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _gluLookAt@72，函数 "void __cdecl draw_pointcloud(float,float,struct glfw_state &,class rs2::points &)" (?draw_pointcloud@@YAXMMAAUglfw_state@@AAVpoints@rs2@@@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwInit，函数 "public: __thiscall window::window(int,int,char const *)" (??0window@@QAE@HHPBD@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwTerminate，函数 "public: __thiscall window::~window(void)" (??1window@@QAE@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwCreateWindow，函数 "public: __thiscall window::window(int,int,char const *)" (??0window@@QAE@HHPBD@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwDestroyWindow，函数 "public: __thiscall window::~window(void)" (??1window@@QAE@XZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwWindowShouldClose，函数 "public: __thiscall window::operator bool(void)" (??Bwindow@@QAE_NXZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwGetWindowSize，函数 "public: __thiscall window::operator bool(void)" (??Bwindow@@QAE_NXZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwGetFramebufferSize，函数 "public: __thiscall window::operator bool(void)" (??Bwindow@@QAE_NXZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwSetWindowUserPointer，函数 "public: __thiscall window::window(int,int,char const *)" (??0window@@QAE@HHPBD@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwGetWindowUserPointer，函数 "public: void __thiscall <lambda_422ec90ec5c87999d430c59c6bf9f6de>::operator()(struct GLFWwindow *,int,int,int,int)const " (??R<lambda_422ec90ec5c87999d430c59c6bf9f6de>@@QBEXPAUGLFWwindow@@HHHH@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwPollEvents，函数 "public: __thiscall window::operator bool(void)" (??Bwindow@@QAE_NXZ) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwSetKeyCallback，函数 "public: __thiscall window::window(int,int,char const *)" (??0window@@QAE@HHPBD@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwSetMouseButtonCallback，函数 "public: __thiscall window::window(int,int,char const *)" (??0window@@QAE@HHPBD@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwSetCursorPosCallback，函数 "public: __thiscall window::window(int,int,char const *)" (??0window@@QAE@HHPBD@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwSetScrollCallback，函数 "public: __thiscall window::window(int,int,char const *)" (??0window@@QAE@HHPBD@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwMakeContextCurrent，函数 "public: __thiscall window::window(int,int,char const *)" (??0window@@QAE@HHPBD@Z) 中引用了该符号
+T265_D435i.obj : error LNK2019: 无法解析的外部符号 _glfwSwapBuffers，函数 "public: __thiscall window::operator bool(void)" (??Bwindow@@QAE_NXZ) 中引用了该符号
+C:\Program Files (x86)\Intel RealSense SDK 2.0\lib\x64\realsense2.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\GLFW_GLAD_Library\lib\glfw3.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\盲人导航项目\Realsense\Debug\Realsense.exe : fatal error LNK1120: 65 个无法解析的外部命令
